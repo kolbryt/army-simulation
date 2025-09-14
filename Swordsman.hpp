@@ -1,3 +1,5 @@
+#include "Coordinates.hpp";
+
 class Swordsman {
 private:
     unsigned int hp{100};
@@ -6,4 +8,8 @@ private:
     unsigned int size{1};
     
     char visualization{'S'};
+    Coordinates coordinates;
+
+public:
+    Swordsman(Coordinates coordinates);
 }
