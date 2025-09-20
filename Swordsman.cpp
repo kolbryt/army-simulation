@@ -1,8 +1,8 @@
 #include "Swordsman.hpp"
 
-Swordsman::Swordsman(Coordinates& coordinates) {
-    this->coordinates.x = coordinates.x;
-    this->coordinates.y = coordinates.y;
+Swordsman::Swordsman(int x, int y) {
+    coordinates.x = x;
+    coordinates.y = y;
 }
 
 Coordinates Swordsman::getCoordinates() {

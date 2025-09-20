@@ -11,6 +11,6 @@ private:
     Coordinates coordinates;
 
 public:
-    Swordsman(Coordinates& coordinates);
+    Swordsman(int x, int y);
     Coordinates getCoordinates();
 };
