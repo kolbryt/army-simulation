@@ -1,4 +1,4 @@
-#include "Coordinates.hpp";
+#include "Coordinates.hpp"
 
 class Swordsman {
 private:
@@ -11,5 +11,5 @@ private:
     Coordinates coordinates;
 
 public:
-    Swordsman(Coordinates coordinates);
-}
+    Swordsman(Coordinates& coordinates);
+};
