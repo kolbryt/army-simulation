@@ -12,4 +12,5 @@ private:
 
 public:
     Swordsman(Coordinates& coordinates);
+    Coordinates getCoordinates();
 };
