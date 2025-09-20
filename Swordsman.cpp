@@ -5,6 +5,6 @@ Swordsman::Swordsman(int x, int y) {
     coordinates.y = y;
 }
 
-Coordinates Swordsman::getCoordinates() {
+Coordinates Swordsman::getCoordinates() const {
     return coordinates;
 }
