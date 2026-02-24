@@ -12,6 +12,7 @@ private:
     Coordinates coordinates;
 
 public:
+    Swordsman() {};
     Swordsman(int x, int y);
     Coordinates getCoordinates() const;
 };
