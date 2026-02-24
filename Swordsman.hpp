@@ -14,6 +14,9 @@ private:
 public:
     Swordsman() {};
     Swordsman(int x, int y);
+
+    char getVisualization() const;
+
     Coordinates getCoordinates() const;
     void setCoordinates(int x, int y);
 };
