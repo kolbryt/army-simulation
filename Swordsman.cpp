@@ -1,10 +1,14 @@
 #include "Swordsman.hpp"
 
 Swordsman::Swordsman(int x, int y) {
-    coordinates.x = x;
-    coordinates.y = y;
+    setCoordinates(x, y);
 }
 
 Coordinates Swordsman::getCoordinates() const {
     return coordinates;
+}
+
+void Swordsman::setCoordinates(int x, int y) {
+    coordinates.x = x;
+    coordinates.y = y;
 }
