@@ -5,7 +5,7 @@
 
 class Map {
 private:
-    Archer units[8][8];
+    Unit units[8][8];
 
     void setUnitsCoordinates();
 

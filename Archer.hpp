@@ -3,8 +3,6 @@
 class Archer {
 private:
     const char visualization{'A'};
-    const unsigned int size{1};
-    const unsigned int speed{1};
     
     unsigned int hp{50};
     unsigned int damage{20};

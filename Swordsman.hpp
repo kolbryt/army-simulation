@@ -1,14 +1,12 @@
 #pragma once
 
+#include "Unit.hpp"
 #include "Coordinates.hpp"
 
-class Swordsman {
-private:
+class Swordsman : public Unit {
+private: 
     const char visualization{'S'};
-    const unsigned int size{1};
-    const unsigned int speed{1};
     
-    unsigned int hp{100};
     unsigned int damage{10};
 
     Coordinates coordinates;
