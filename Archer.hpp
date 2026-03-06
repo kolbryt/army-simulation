@@ -1,6 +1,9 @@
+#pragma once
+
+#include "Unit.hpp"
 #include "Coordinates.hpp"
 
-class Archer {
+class Archer : public Unit {
 private:
     const char visualization{'A'};
     
